@@ -3,13 +3,16 @@
 
 - 🔭 We are currently working on [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc)
 
-- 👨‍💻 All of my projects are available at [https://www.instagram.com/ironhide.ftc/](https://www.instagram.com/ironhide.ftc/)
+- 👨‍💻 All of our projects are available at [https://www.instagram.com/ironhide.ftc/](https://www.instagram.com/ironhide.ftc/)
 
 - 📫 How to reach us **ironhideftc@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/ironhide.ftc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ironhide.ftc" height="30" width="40" /></a>
+</p>
+<p align="left">  
+<a href="https://www.tiktok.com/@ironhide.ftc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tiktok.svg" alt="ironhide.ftc" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
