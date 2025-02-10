@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronHide - Conexões: Sentinelas Verdes</title>
+    <link rel="shortcut icon" type="imagex/png" href="./src/imagens/logo.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilosentinelas.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+
+<body>
+
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+        <div class="menu-principal">
+            <div class="icone-ironhide">
+                <img class="escudo" src="./src/imagens/logo-titulo.png" width="100vw">
+                <h3 class="numero-da-equipe">#26956</h3>
+            </div>
+            <nav class="menu-container">
+                <div class="menu-overlay" id="menu-overlay"></div>
+                <ul class="menu">
+                    <div class="flex">
+                        <h1>Menu</h1>
+                        <button style="font-size: 2rem;" class="remove">☰</button>
+                    </div>
+                    <li class="menu-item">
+                        <a href="./index.html">
+                            <p>Início</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="equipe.html">
+                            <p>Equipe</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-people" viewBox="0 0 16 16">
+                                <path
+                                    d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="conexões.html">
+                            <p>Conexões</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-globe-americas" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="loja.html">
+                            <p>Loja</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+
+        <div class="title">
+            <h1 style="color: #36aa3f;">SENTINELAS VERDES</h1>
+        </div>
+
+        <div class="corpo">
+
+            <div class="cartoes">
+                <div class="cartao aberto" id="cartao-definicao">
+                    <div class="cartao-topo">
+                        <div class="cartao-informacoes">
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>DESCRIÇÃO</h3>
+                                    <p>O projeto consiste no desenvolvimento de um sistema eletrônico simples e
+                                        acessível, utilizando a plataforma Arduino, para monitoramento de parâmetros
+                                        ambientais fundamentais. Este sistema será capaz de medir e exibir em tempo real
+                                        a concentração de dióxido de carbono (CO₂) na atmosfera, o pH da água, além da
+                                        temperatura e umidade do ar.
+                                        <br>
+                                        <br>
+                                        Os dados capturados pelos sensores são enviados para o Arduino Uno, que processa
+                                        as informações e realiza comparações com parâmetros predefinidos de qualidade.
+                                        Esses parâmetros servem como referência para indicar se os valores estão dentro
+                                        de limites aceitáveis ou se há necessidade de atenção.
+                                        <br>
+                                        <br>
+                                        O projeto reflete os valores da FIRST ao promover inovação sustentável, impacto
+                                        comunitário e ciência acessível, incentivando a melhoria da qualidade de vida e
+                                        a participação científica.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>OBJETIVO</h3>
+                                    <p>O projeto propõe a criação de um sistema eletrônico acessível e econômico,
+                                        baseado na plataforma Arduino, para monitorar parâmetros ambientais. A
+                                        solução visa democratizar o acesso a tecnologias de pesquisa, oferecendo uma
+                                        ferramenta simples para estudantes, pesquisadores independentes e pequenos
+                                        agricultores, entre outros públicos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="p1">
+                                <div class="texto-fim">
+                                    <h3>PROBLEMÁTICA</h3>
+                                    <p>A acidificação da água reduz o pH da água, modificando sua composição química e
+                                        afetando gravemente os organismos marinhos. Além disso, a alta concentração de
+                                        dióxido de carbono provoca alterações climáticas, como poluição do ar, chuva
+                                        ácida e intensificação do efeito estufa, resultando no aumento da temperatura
+                                        global.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao" id="cartao-componentes">
+                    <div class="cartao-topo">
+                        <div class="cartao-informacoes">
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>ARDUINO</h3>
+                                    <p>A plataforma principal para o desenvolvimento do sistema de monitoramento. O
+                                        Arduíno
+                                        será responsável por controlar os módulos sensores e processar os dados
+                                        coletados em
+                                        tempo real.</p>
+                                </div>
+                                <img src="./src/imagens/arduino.jpg" height="175">
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>JUMPERS</h3>
+                                    <p>Utilizados para a conexão dos sensores no arduino, além de alimentarem a energia
+                                        deles, facilitando a conexão com a protoboard.
+                                    </p>
+                                </div>
+                                <img src="./src/imagens/jumpers.webp" height="175">
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>PLACA DE ENSAIO</h3>
+                                    <p>A protoboard é uma placa de ensaio que serve como um protótipo de um aparelho
+                                        eletrônico, com uma matriz de contatos que possibilita construir circuitos
+                                        de
+                                        teste
+                                        sem que haja necessidade de solda e, assim, garantindo segurança e agilidade
+                                        em
+                                        diferentes atividades.</p>
+                                </div>
+                                <img src="./src/imagens/protoboard.jpg" height="125">
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>MÓDULO DE pH</h3>
+                                    <p>Sensor que mede o pH da água, essencial para monitorar a qualidade da água
+                                        potável e identificar fontes de contaminação através da quantidade de pH.
+                                    </p>
+                                </div>
+                                <img src="./src/imagens/pH.jpg" height="175">
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>SENSOR DE CO2</h3>
+                                    <p>Utilizado para medir a concentração de dióxido de carbono no ar, ajudando a
+                                        monitorar
+                                        a poluição atmosférica e avaliar a qualidade do ar.</p>
+                                </div>
+                                <img src="./src/imagens/co2.webp" height="175">
+                            </div>
+                            <div class="p1">
+                                <div class="texto">
+                                    <h3>DISPLAY LCD 16x2</h3>
+                                    <p>Utilizado para medir a concentração de dióxido de carbono no ar, ajudando a
+                                        monitorar
+                                        a poluição atmosférica e avaliar a qualidade do ar.</p>
+                                </div>
+                                <img src="./src/imagens/display_lcd.webp" height="175">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao" id="cartao-prototipos">
+                    <div class="cartao-topo">
+                        <div class="cartao-informacoes">                            
+                            <h1 class="h1-title">PROTÓTIPO 1</h1>
+                            <div class="p2">
+                                <div class="texto">
+                                    <h3>PROTÓTIPO VIRTUAL</h3>
+                                    <p>O protótipo do projeto Sentinelas Verdes foi desenvolvido com foco em tecnologia
+                                        e sustentabilidade. Utilizando o TinkerCAD, simulou-se a integração de sensores
+                                        de CO2 e pH
+                                        com o Arduino, resistores e placas de ensaio. O design estrutural, modelado no
+                                        Fusion 360,
+                                        foi baseado em garrafas PET, combinando sustentabilidade, facilidade de uso e um
+                                        design
+                                        industrial sofisticado. A escolha de materiais recicláveis e acessíveis torna o
+                                        projeto escalável
+                                        e replicável, promovendo impacto positivo e acessibilidade em diferentes
+                                        contextos.
+                                    </p>
+                                </div>
+                                <div class="imagens1">
+                                    <div>
+                                        <img class="img" src="./src/imagens/tinker-co2.png" width="380">
+                                        <h5><i>Protótipo do módulo de CO2</i></h5>
+                                    </div>
+                                    <div>
+                                        <img class="img" src="./src/imagens/tinker-ph.png" width="380">
+                                        <h5><i>Protótipo do módulo de pH</i></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p2">
+                                <div class="texto">
+                                    <h3>PROTÓTIPO FÍSICO</h3>
+                                    <p>Inicialmente, a equipe projetou um circuito utilizando Arduíno e Módulo de CO, no
+                                        qual realiza o monitoramento da quantidade de Monóxido de Carbono no ar. A
+                                        equipe pretende futuramente realizar o design do projeto, realizando o
+                                        monitoramento de pH e CO2 com as informações sendo atualizadas constantemente no
+                                        nosso site.
+                                    </p>
+                                </div>
+                                <div class="imagens2">
+                                    <div>
+                                        <img src="./src/imagens/prototipo1.jpg" width="200">
+                                        <h5><i>LED Vermelho: Nível inadequado de CO</i></h5>
+                                    </div>
+                                    <div>
+                                        <img src="./src/imagens/prototipo2.jpg" width="200">
+                                        <h5><i>LED Branco: Nível adequado de CO</i></h5>
+                                    </div>
+                                    <div>
+                                        <img class="img" src="./src/imagens/code-projeto.png" width="380">
+                                        <h5><i>Código do protótipo - Arduino IDE (Web)</i></h5>
+                                    </div>
+                                </div>
+                                <div class="texto2">
+                                    <p>Após, foi implementado o módulo e sensor de pH junto com uma tela LCD que exibe
+                                        as informações
+                                        de ambos os parâmetros (CO2 e pH) para a finalização da fase de programação,
+                                        junto com os
+                                        testes de ambos os sensores.
+                                    </p>
+                                </div>
+                                <div class="imagens2">
+                                    <div>
+                                        <iframe src="./src/imagens/sentinelas-teste.mp4"
+                                            style="border: 2px solid black; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);"></iframe>
+                                        <h5><i>Teste do protótipo</i></h5>
+                                    </div>
+                                    <div>
+                                        <img src="./src/imagens/protótipo-final-1.jpg" width="310">
+                                        <h5><i>Versão final do protótipo</i></h5>
+                                    </div>
+                                    <div>
+                                        <img src="./src/imagens/protótipo-final-2.jpg" width="180">
+                                        <h5><i>Versão final do protótipo</i></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="cartao" id="cartao-aplicacao">
+                    <div class="cartao-topo">
+                        <div class="cartao-informacoes">
+                            <div class="p2">
+                                <div class="texto">
+                                    <h3>CASCAVEL</h3>
+                                    <p>O protótipo do projeto Sentinelas Verdes foi desenvolvido com foco em tecnologia
+                                        e sustentabilidade. Utilizando o TinkerCAD, simulou-se a integração de sensores
+                                        de CO2 e pH
+                                        com o Arduino, resistores e placas de ensaio. O design estrutural, modelado no
+                                        Fusion 360,
+                                        foi baseado em garrafas PET, combinando sustentabilidade, facilidade de uso e um
+                                        design
+                                        industrial sofisticado. A escolha de materiais recicláveis e acessíveis torna o
+                                        projeto escalável
+                                        e replicável, promovendo impacto positivo e acessibilidade em diferentes
+                                        contextos.
+                                    </p>
+                                </div>
+                                <div class="imagens1">
+                                    <div>
+                                        <img class="img" src="./src/imagens/aplicação-cascavel.jpeg" width="180">
+                                        <h5><i>Aplicação</i></h5>
+                                    </div>
+                                    <div>
+                                        <img class="img" src="./src/imagens/resultdos-aplicação-cascavel.jpeg" width="180">
+                                        <h5><i>Resultados da Aplicação</i></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="item ativo" id="definicao">
+                        <span>Definição</span>
+                    </li>
+                    <li class="item" id="componentes">
+                        <span>Componentes</span>
+                    </li>
+                    <li class="item" id="prototipos">
+                        <span>Protótipos</span>
+                    </li>
+                    <li class="item" id="aplicacao">
+                        <span>Aplicação</span>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div>
+            <h4 style="margin: auto; padding: 20px;">Copyright © [2025] [IRONHIDE] | Powered by Equipe <a
+                    style="color: #ffffff;" href="https://www.instagram.com/ironhide.ftc/">IRONHIDE</a></h4>
+        </div>
+
+    </main>
+
+    <script src="./src/js/item.js"></script>
+    <script src="./src/js/menu.js"></script>
+    <script src="./src/js/scroll.js"></script>
+</body>
+
+</html>

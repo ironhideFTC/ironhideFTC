@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IronHide - Equipe</title>
+  <link rel="shortcut icon" type="imagex/png" href="./src/imagens/logo.png">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estiloequipe.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+
+<body>
+
+  <main>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <img class="background" src="./src/imagens/back-equipe.png">
+
+    <div class="menu-principal">
+      <div class="icone-ironhide">
+        <img class="escudo" src="./src/imagens/logo-titulo.png" width="100vw">
+        <h3 class="numero-da-equipe">#26956</h3>
+      </div>
+      <nav class="menu-container">
+        <div class="menu-overlay" id="menu-overlay"></div>
+        <ul class="menu">
+          <div class="flex">
+            <h1>Menu</h1>
+            <button style="font-size: 2rem;" class="remove">☰</button>
+          </div>
+          <li class="menu-item">
+              <a href="./index.html">
+                  <p>Início</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-house" viewBox="0 0 16 16">
+                      <path
+                          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                  </svg>
+              </a>
+          </li>
+          <li class="menu-item">
+              <a href="equipe.html">
+                  <p>Equipe</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-people" viewBox="0 0 16 16">
+                      <path
+                          d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                  </svg>
+              </a>
+          </li>
+          <li class="menu-item">
+              <a href="conexões.html">
+                  <p>Conexões</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-globe-americas" viewBox="0 0 16 16">
+                  <path
+                      d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+              </svg>
+              </a>
+          </li>
+          <li class="menu-item">
+              <a href="loja.html">
+                  <p>Loja</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-cart" viewBox="0 0 16 16">
+                  <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+              </svg>
+              </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+
+    <div class="container">
+      <div class="conheca">
+        <h1>
+          <p>CONHEÇA OS MEMBROS DA EQUIPE <a class="i" href="https://www.instagram.com/ironhide.ftc/">IRONHIDE</a></p>
+          <p>E NOSSOS MENTORES DA <a style="color: #fa8724;" href="https://www.instagram.com/frcallmight/">FRC
+              ALLMIGHT!</a></p>
+        </h1>
+      </div>
+
+      <div class="cartao-nav">
+        <div class="cartao" id="cartao-ariel">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/arielll.mj/">Ariel</a></h2>
+            </div>
+
+            <span class="funcao">Engenheiro Chefe / Cadista</span>
+
+            <div>
+              <img src="./src/imagens/ariel.png" alt="Ariel">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 17 anos</p>
+              <p>Série: 2° Ano</p>
+              <p>Ariel Maciel Juvenal tem 17 anos e nasceu no dia 17 de novembro.</p>
+              <p>Na temporada 2023-2024, ele participou da equipe LightStorm (F1 in Schools), onde
+                atuou como engenheiro de manufatura.</p>
+              <p>Na temporada "Into the Deep" exerceu a função de Engenheiro e Cadista,
+                graças à sua experiência na competição F1.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-cristian">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/s4nttos.02/">Cristian</a></h2>
+            </div>
+
+            <span class="funcao">Engenheiro</span>
+
+            <div class="img-cristian">
+              <img src="./src/imagens/cristian.png" alt="Cristian">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 15 anos</p>
+              <p>Série: 1° Ano</p>
+              <p>Cristian Freitas dos Santos tem 15 anos e nasceu no dia 30 de outubro.</p>
+              <p>Sua função na temporada 2024-2025 é a de Engenheiro Mecânico e Documentador,
+                auxiliando e exercendo, principalmente, a montagem do robô e a produção do
+                caderno de engenharia.</p>
+              <p>Ele é irmão do membro Cristilan e ambos são bolsistas, residindo na cidade de Caucaia junto ao
+                Cadista
+                Ariel.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-cristilan">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/cristilan_freitas/">Cristilan</a></h2>
+            </div>
+
+            <span class="funcao">Mecânico Chefe</span>
+
+            <div class="img-cristilan">
+              <img src="./src/imagens/cristilan.png" alt="Cristilan">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 17 anos</p>
+              <p>Série: 2° Ano</p>
+              <p>Cristilan Freitas dos Santos nasceu no dia 14 de novembro.</p>
+              <p>Nessa temporada ele é nosso Engenheiro Chefe graças à sua experiência
+                na área de mecânica. Sua habilidade em controlar o robô o tornou um dos
+                pilotos na etapa regional (Ceará) junto a seu companheiro Daniel,
+                conquistando o prêmio de Capitão da Aliança Vencedora à equipe.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-samuel">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/samu.sousa_/">Samuel</a></h2>
+            </div>
+
+            <span class="funcao">Engenheiro</span>
+
+            <div class="img-samuel">
+              <img src="./src/imagens/samuel.png" alt="Samuel">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 16 anos</p>
+              <p>Série: 1° Ano</p>
+              <p>Samuel Ferreira de Sousa tem 16 anos e nasceu no dia 3 de julho.</p>
+              <p>Atualmente, ele está atuando como Engenheiro Mecânico, Documentador Principal e
+                também é um auxiliar no marketing devido a sua facilidade de comunicar-se com
+                diversas pessoas, valorizando e refletindo os valores da FIRST na equipe e, trazendo
+                ideias inovadoras no meio social.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-thales">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/j.thales._/">Thales</a></h2>
+            </div>
+
+            <span class="funcao">Designer Gráfico</span>
+
+            <div class="img-thales">
+              <img src="./src/imagens/thales.png" alt="Thales">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 16 anos</p>
+              <p>Série: 1° Ano</p>
+              <p>Juan Thales Castro de Paula nasceu no dia 20 de abril.</p>
+              <p>Atualmente atua na área do Marketing e Design (sua função principal).
+                Com sua experiência em trabalhos relacionados ao design gráfico e sua
+                capacidade de pensar de forma inovadora, foi o pilar principal para a
+                adoção do estilo Street Art à equipe, um dos principais pontos que trouxeram
+                o prêmio Think Award na etapa regional da temporada 2024-2025, além de realizar
+                o design do site da equipe.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-erick">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/og.erickxt/">Erick</a></h2>
+            </div>
+
+            <span class="funcao">Gestor de Equipe / Programador</span>
+
+            <div class="img-erick">
+              <img src="./src/imagens/erick.png" alt="Erick">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 15 anos</p>
+              <p>Série: 1° Ano</p>
+              <p>Erick Marcelo Cardoso da Silva tem 15 anos e nasceu no dia 17 de abril.</p>
+              <p>Com sua experiência na equipe de WCP (FIRST Lego League) nas temporadas 2022-2023 e 2023-2024,
+                ele atua como programador e marketing dentro da equipe. Sua experiência no âmbito da robótica
+                nos auxilia na estruturação de diversas ações sociais que refletem os valores da FIRST, como o
+                projeto <a href="steam.html">STEAM.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao" id="cartao-daniel">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/nielz_gt/">Daniel</a></h2>
+            </div>
+
+            <span class="funcao">Programador</span>
+
+            <div class="img-daniel">
+              <img src="./src/imagens/daniel.png" alt="Daniel">
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 16 anos</p>
+              <p>Série: 1° Ano</p>
+              <p>Daniel também é ex-competidor na equipe WCP como montador e programador.</p>
+              <p>Ele atua como programador na equipe junto a seu companheiro Erick Marcelo,
+                sendo um dos principais desenvolvedores do Site da IRONHIDE. Sua contribuição
+                na programação e pensamento do projeto social também auxiliaram na conquista do
+                prêmio Think Award (Regional - Ceará).
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cartao aberto" id="cartao-mayanne">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/mayanne._/">Mayanne</a></h2>
+            </div>
+
+            <span class="funcao">Técnica</span>
+
+            <div class="img-mayanne">
+              <img src="./src/imagens/mayanne.png" alt="Mayanne" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 19 anos</p>
+              <p>Mayanne Jacinto Primo é nossa técnica titular.</p>
+              <p>Ela nasceu no dia 17 de maio e já participou da ALLMIGHT #9162
+                (equipe de FIRST Robotics Competition).</p>
+              <p>Com sua experiência na robótica, principalmente na área do marketing, auxilia
+                e gerencia todas as áreas da equipe, valorizando os valores da FIRST e trazendo
+                suporte a todos os membros.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cartao mentor" id="cartao-niord">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/niord_miranda/">Niord</a></h2>
+            </div>
+
+            <span class="funcao">Mentor: Programação</span>
+
+            <div class="img-niord">
+              <img src="./src/imagens/niord.png" alt="Niord" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 17 anos</p>
+              <p>Niord Pereira Castelo Branco Miranda.</p>
+              <p>Competidor e programador da equipe FRC ALLMIGHT #9162, nossa equipe aliada,
+                tem um vasto conhecimento no mundo da robótica, especialmente na área de Programação,
+                auxiliando os membros Daniel e Erick na programação do robô e estratégia do desafio.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cartao mentor" id="cartao-joao">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/joaosantossxz/">João Antonio</a></h2>
+            </div>
+
+            <span class="funcao">Mentor: Programação</span>
+
+            <div class="img-joao">
+              <img src="./src/imagens/joao.png" alt="João" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 17 anos</p>
+              <p>João Antonio de Macedo Santos é programador da equipe ALLMIGHT.</p>
+              <p>Atual programador da #9162 junto a Niord, atuou ativamente na participação na produção do site
+                da equipe, com seus pensamentos inovadores graças à experiências na categoria FLL, no Pará,
+                e temporadas passadas na ALLMIGHT.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cartao mentor" id="cartao-jonas">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/andrson_14/">Jonas</a></h2>
+            </div>
+
+            <span class="funcao">Mentor: Engenharia</span>
+
+            <div class="img-joao">
+              <img src="./src/imagens/jonas.png" alt="Jonas" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 16 anos</p>
+              <p>Jonas Anderson de Oliveira Carvalho nasceu em 2008.</p>
+              <p>Ele tambémém faz parte da equipe #9162, atuando na Engenharia.</p>
+              <p>Com sua experiência na FTC, na equipe Clusters #16053 auxilia a Engenharia, principalmente a Cadista,
+                sendo um dos principais responsáveis pelo bom desempenho do robô da #26956 em arena.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartao mentor" id="cartao-goncalves">
+          <div class="cartao-topo">
+            <div class="detalhes">
+              <h2 class="nome"><a href="https://www.instagram.com/goncalvesjoneto/">Gonçalves</a></h2>
+            </div>
+
+            <span class="funcao">Mentor: Engenharia</span>
+
+            <div class="img-goncalves">
+              <img src="./src/imagens/goncalves.png" alt="Gonçalves" />
+            </div>
+          </div>
+
+          <div class="cartao-informacoes">
+            <div class="descricao">
+              <h3>Descrição</h3>
+              <p>Idade: 18 anos</p>
+              <p>O mentor Gonçalves Jose da Silva Neto, engenheiro da #9162 é mentor
+                da Engenharia da equipe IRONHIDE.
+              </p>
+              <p>Por ser um ex-competidor de FTC, assim como Jonas, ele teve uma participação intensa no
+                pensamento e idealização do robô, estando também monitorando e dando suporte ativamente a
+                cada passo e Trade-off na Engenharia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <nav class="listagem">
+          <ul>
+            <h2 class="h">#26956</h2>
+            <div class="resp">
+              <li class="item resp ativo" id="mayanne">
+                <span>Mayanne</span>
+              </li>
+              <li class="item resp" id="erick">
+                <span>Erick</span>
+              </li>
+              <li class="item resp" id="ariel">
+                <span>Ariel</span>
+              </li>
+              <li class="item resp" id="cristilan">
+                <span>Cristilan</span>
+              </li>
+              <li class="item resp" id="samuel">
+                <span>Samuel</span>
+              </li>
+              <li class="item resp" id="cristian">
+                <span>Cristian</span>
+              </li>
+              <li class="item resp" id="daniel">
+                <span>Daniel</span>
+              </li>
+              <li class="item resp" id="thales">
+                <span>Thales</span>
+              </li>
+            </div>
+          </ul>
+          <ul>
+            <h2 style="color: #fa8724;">#9162</h2>
+            <li class="item membro" id="niord">
+              <span>Niord</span>
+            </li>
+            <li class="item membro" id="joao">
+              <span>João Antonio</span>
+            </li>
+            <li class="item membro" id="jonas">
+              <span>Jonas</span>
+            </li>
+            <li class="item membro" id="goncalves">
+              <span>Gonçalves</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h4 style="margin: auto; padding: 20px;">Copyright © [2025] [IRONHIDE] | Powered by Equipe <a
+            style="color: #ffffff;" href="https://www.instagram.com/ironhide.ftc/">IRONHIDE</a></h4>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./src/js/item.js"></script>
+  <script src="./src/js/menu.js"></script>
+  <script src="./src/js/scroll.js"></script>
+</body>
+
+</html>

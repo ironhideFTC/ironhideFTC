@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IronHide - Início</title>
+  <link rel="shortcut icon" type="imagex/png" href="./src/imagens/logo.png">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estiloinicio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
+
+<body>
+
+  <main class="inicio">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <div class="corpo-inicio">
+
+      <img class="background" src="./src/imagens/back-inicio.jpeg">
+
+      <div class="menu-principal">
+        <div class="icone-ironhide">
+          <img class="escudo" src="./src/imagens/logo-titulo.png" width="100vw">
+          <h3 class="numero-da-equipe">#26956</h3>
+        </div>
+        <nav class="menu-container">
+          <div class="menu-overlay" id="menu-overlay"></div>
+          <ul class="menu">
+            <div class="flex">
+              <h1>Menu</h1>
+              <button style="font-size: 2rem;" class="remove">☰</button>
+            </div>
+            <li class="menu-item">
+              <a href="./index.html">
+                <p>Início</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+                </svg>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="equipe.html">
+                <p>Equipe</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+                </svg>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="conexões.html">
+                <p>Conexões</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-globe-americas" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z" />
+                </svg>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="loja.html">
+                <p>Loja</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+
+      <div class="conteudo-principal">
+        <div class="texto-informacional">
+          <h1><span style="color: #36aa3f;">STEEL MINDS, IRON HEARTS</span></h1>
+          <p>
+          <h3>Seja bem-vindo(a) ao site da IRONHIDE. Aqui você irá conhecer
+            nossa <a style="color: #36aa3f;" href="equipe.html">equipe</a> e os trabalhos que estamos realizando, além
+            disso,
+            você pode acompanhar nosso progresso como equipe nas áreas da
+            Engenharia, Design, Marketing e Progamação.
+            <span style="color: #36aa3f;">Gracious Professionalism!</span>
+          </h3>
+          </p>
+          <p>
+          <h3>Este site é um de nossos projetos, você pode conferir todos no nosso <a style="color: #36aa3f;"
+              href="https://www.instagram.com/ironhide.ftc">instagram</a> ou na aba <a style="color: #36aa3f;"
+              href="./conexões.html">conexões</a> no canto superior direito. Nos siga e fique à vontade para explorar!
+          </h3>
+          </p>
+        </div>
+        <div class="desafio">
+          <div class="conteudo">
+            <div class="conheca-a-ftc">
+              <h2>
+                <p class="pergunta">Antes de tudo, <span style="color: #36aa3f;">o que é FTC?</span></p>
+              </h2>
+              <h3>
+                <p class="definicao-FTC">A FIRST Tech Challenge <a
+                    href="https://www.firstinspires.org/robotics/ftc">(FTC)</a> é uma competição de robótica para
+                  estudantes do
+                  ensino
+                  médio, organizada pela FIRST (For Inspiration and Recognition of Science and Technology). Nessa
+                  competição,
+                  equipes de 10 a 15 alunos projetam, constroem, programam e dirigem robôs para realizar tarefas
+                  específicas
+                  em um ambiente competitivo. O <span style="color: #36aa3f;">objetivo</span> é inspirar os jovens a se
+                  interessarem por <span style="color: #36aa3f;">ciência, tecnologia,
+                    engenharia e matemática (STEM),</span> promovendo também habilidades como trabalho em equipe,
+                  resolução de
+                  problemas e criatividade.</p>
+              </h3>
+            </div>
+            <div class="desafio2">
+              <h2>
+                <p class="conheca">Desafio <span style="color: #36aa3f;">Into the Deep</span></p>
+              </h2>
+              <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/ewlDPvRK4U4?si=kGNCuXJ7uqRFrK-0" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <img class="back-green" src="./src/imagens/back-green.jpeg">
+
+          <div style="background-color: #36aa3f; justify-items: center;">
+            <div class="sobre-a-equipe">
+              <div class="img-nav">
+                <div class="auto">
+                  <img src="./src/imagens/equipe2.jpeg" height="350vh">
+                </div>
+                <nav class="btn_social">
+                  <ul>
+                    <li><a href="https://www.tiktok.com/@ironhide.ftc" title="tiktok"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-tiktok" viewBox="0 0 16 16">
+                          <path
+                            d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z">
+                          </path>
+                        </svg></a></li>
+                    <li><a href="https://www.instagram.com/ironhide.ftc" title="instagram"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-instagram" viewBox="0 0 16 16">
+                          <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg></a></li>
+                    <li><a href="mailto:ironhideftc@gmail.com" target="_blank" title="email"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-envelope" viewBox="0 0 16 16">
+                          <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                        </svg></a></li>
+                    <li><a href="https://github.com/ironhideFTC" target="_blank" title="email"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-github" viewBox="0 0 16 16">
+                          <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                        </svg></a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="texto-equipe">
+                <h1><span style="color: black;">IRONHIDE #26956</span></h1>
+                <h3>A IRONHIDE é a primeira equipe de FTC do SESI SENAI Roberto Proença de Macêdo (Fortaleza-CE), nosso
+                  objetivo é nos transformar em uma equipe <span style="color: black;">inovadora e inspiradora,</span>
+                  destacando-nos entre as principais equipes de robótica do país.
+                  <p>Inspirados pelos valores da FIRST,
+                    buscamos revelar a grandiosidade de seus <span style="color: black;">princípios</span>
+                    e <span style="color: black;">transmitir o universo da robótica</span> para a maior quantidade de
+                    pessoas possíveis. Temos o objetivo de explorar e transmitir todas as experiências que a robótica
+                    tem
+                    a
+                    oferecer para os mais diversos meios sociais, visando sempre <span style="color: black;">impulsionar
+                      a
+                      tecnologia e os projetos sociais na nossa comunidade.</span> Atualmente, a equipe possui 1 técnica
+                    e
+                    7 membros, todos
+                    bolsistas e, sendo 3 deles de Cascavel-CE. Conheça-nos na aba <a href="./equipe.html"
+                      style="color: black;">equipe.</a></p>
+                </h3>
+              </div>
+            </div>
+
+            <div class="projetos">
+              <div class="carousel">
+                <button class="prev" aria-label="Anterior">&#10094;</button>
+                <img id="carousel-img" src="./src/imagens/tinker-co2.png" height="270vh" alt="Projeto">
+                <button class="next" aria-label="Próximo">&#10095;</button>
+              </div>
+              <div class="conheca-o-projeto">
+                <h3>
+                  <p>CONHEÇA NOSSOS <span style="color: #36aa3f;">PROJETOS</span> E <span
+                      style="color: #36aa3f;">EVENTOS</span></p>
+                </h3>
+                <h2>
+                  <p class="confira-aqui"><a style="color: #ffffff" href="conexões.html">CONFIRA AQUI</a></p>
+                </h2>
+              </div>
+            </div>
+
+            <div>
+              <h4 style="margin: auto; padding: 30px; text-align: center;">Copyright © [2025] [IRONHIDE] |
+                Powered by Equipe <a style="color: #ffffff;" href="https://www.instagram.com/ironhide.ftc/">IRONHIDE</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="./src/js/scroll.js"></script>
+  <script src="./src/js/menu.js"></script>
+  <script src="./src/js/carousel.js"></script>
+</body>
+
+</html>
