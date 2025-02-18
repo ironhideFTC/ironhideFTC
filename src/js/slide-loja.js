@@ -30,3 +30,5 @@ const images2 = [
 
 initializeSlideshow('slideshow1', images1);
 initializeSlideshow('slideshow2', images2);
+initializeSlideshow('slideshow3', images1);
+initializeSlideshow('slideshow4', images2);
