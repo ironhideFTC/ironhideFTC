@@ -3,7 +3,7 @@
 
 - 🔭 We are currently working on [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc)
 
-- 👨‍💻 All of my projects are available at [https://www.instagram.com/ironhide.ftc/](https://www.instagram.com/ironhide.ftc/)
+- 👨‍💻 All of our projects are available at [https://www.instagram.com/ironhide.ftc/](https://www.instagram.com/ironhide.ftc/)
 
 - 📫 How to reach us **ironhideftc@gmail.com**
 
